@@ -1,22 +1,22 @@
 body {
-    background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+    padding-top: 70px;
 }
-
-.hero-unit {
-    margin: 0 auto;
-    max-width: 300px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
+h1 { text-align: center; }
+h1 small { display: block; }
+#banner {
+    height: 460px;
+    background: url("/images/skull.png") right 183px no-repeat;
+    background-size: 200px;
+    margin-bottom: 30px;
 }
-
-.hero-unit h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+#logo {
+    display: block;
+    margin: auto;
+}
+#content, #content .left {
+    height: 715px;
+}
+#content .left {
+    background: url("/images/info.png") center 20px no-repeat;
+    background-size: 180px;
 }
